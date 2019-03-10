@@ -2,9 +2,9 @@
 
 namespace Football
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             Console.Write("Enter the number of touchdowns(7 points): ");
             int touchdowns = int.Parse(Console.ReadLine());
